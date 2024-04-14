@@ -17,7 +17,7 @@ export default function Header() {
                 <h3>Baixe o App</h3>
             </div>
 
-            <div>
+            <div class='oi'>
                 <h3>Peça seu Méqui</h3>
                 <img src={cell2} alt="" />
             </div>

@@ -1,13 +1,19 @@
-import React from 'react'
+import React from 'react';
+
+import* as S from './main_style';
 
 export default function Card({imagem, texto}) {
   return (
-    <div>
-        <div>
-            <img src={imagem} alt="img" />
-            <p>{texto}</p>
-            <button>Clique aqui</button>
-        </div>
-    </div>
+    <S.Card>
+      <section>
+          <div class='card'>
+            <div class='teste'>
+                <img src={imagem} alt="img" />
+                <p>{texto}</p>
+                <button>Clique aqui</button>
+            </div>
+          </div>
+      </section>
+    </S.Card>
   )
 }
